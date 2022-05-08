@@ -1,0 +1,81 @@
+body {
+  font: 14px "Century Gothic", Futura, sans-serif;
+  margin: 20px;
+}
+
+.game {
+  display: flex;
+  flex-direction: row;
+}
+
+.leftPanel {
+  display: flex;
+  flex-direction: column;
+  margin: 20px;
+  max-width: 300px;
+}
+
+.buttonsPanel {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-template-rows: auto auto;
+  grid-gap: 15px;
+  justify-content: center;
+  border: 1px solid black;
+  padding: 10px;
+}
+
+.colorBtn {
+  height: 40px;
+  width: 40px;
+  border: none;
+  cursor: pointer;
+  border: 2px solid black;
+}
+
+.colorBtn:hover {
+  outline: none;
+  border: 2px solid black;
+}
+
+.turnsPanel {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  font-size: 20px;
+  color: darkblue;
+  border: 1px solid black;
+}
+
+.turnsLab {
+  text-transform: uppercase;
+}
+
+.turnsNum {
+  margin-top: 10px;
+}
+
+.TextoLateral {
+  display: flex;
+  flex-direction: column;
+  font-size: 20px;
+  color: darkblue;
+  border: 1px solid black;
+
+}
+
+.HistorialJugadas {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  font-size: 20px;
+  color: darkblue;
+  border: 1px solid black;
+  min-height: 50px;
+}
+
+.board {
+  margin: 20px;
+  display: grid;
+}
